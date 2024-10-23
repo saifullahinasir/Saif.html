@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Crime</title>
+    <link rel="stylesheet" href="Crime1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Crime Reporting System</div>
+        <nav>
+            <ul>
+                <li><a href="Crime1.html">Home</a></li>
+                <li><a href="Crime2.html">Report a Crime</a></li>
+                <li><a href="Crime3.html">Crime Dashboard</a></li>
+                <li><a href="Crime3.html">Statistics</a></li>
+                <li><a href="crime faqs.html">FAQs</a></li>
+                <li><a href="Crime5.html">Contact Us</a></li>
+                <li><a href="Crime4.html">About Us</a></li>
+                <li><a href="crime6.html">Terms and Conditions</a></li>
+                <li><a href="Crime2.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Report a Crime</h1>
+        <form id="crimeReportForm">
+            <label for="Type of crime">Type of crime:</label>
+            <input type="text" id="Type of crime" required>
+                     
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" rows="4"></textarea>
+
+            <label for="evidence">Upload Evidence:</label>
+            <input type="file" id="evidence">
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Crime Reporting System</p>
+    </footer>
+    <script src="Crime1.js"></script>
+</body>
+</html>
